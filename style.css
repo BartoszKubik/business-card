@@ -1,13 +1,50 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 body {
     background-color: #2C2141;
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 .main {
     background-color: #f8f8f8;
     border-radius: 16px;
     width: 624px;
     margin: 16px;
+    padding: 32px;
+}
+
+.person {
+
+}
+
+.person__name {
+    font-size: 36px;
+    margin: 0px;
+    font-weight: normal;
+}
+
+.person__position {
+    color: #545454;
+    font-style: italic;
+    font-size: 18;
+    margin: 0px;
+}
+
+.person__description {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.special {
+    color: #ED6D05;
+    font-weight: normal;
 }
