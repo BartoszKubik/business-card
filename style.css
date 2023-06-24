@@ -23,7 +23,12 @@ body {
 }
 
 .person {
+    display: flex;
+    align-items: flex-start;
+}
 
+.person__picture {
+ margin-right: 32px;
 }
 
 .person__info {
@@ -49,11 +54,11 @@ body {
     margin: 0px;
 }
 
-.person_description--with-margin {
+.person__description--with-margin {
     margin-bottom: 22px;
 }
 
-.person_links {
+.person__links {
     color: #E20613;
     text-decoration: none;
 }
